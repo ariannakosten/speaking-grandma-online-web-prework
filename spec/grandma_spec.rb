@@ -22,7 +22,9 @@ describe '#speak_to_grandma' do
   it 'responds with Im tired leave me alone when you say anything else ' do
     expect(speak_to_grandma('Im hungry')).to eq "IM tired leave me alone"
     
-    expect(speak_to_grandma('I want to play)ired leave me alone"
+    expect(speak_to_grandma('I want to play!').to eq "ave me alone"
   end
 
 end
+
+
